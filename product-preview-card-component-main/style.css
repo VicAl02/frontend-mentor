@@ -1,0 +1,72 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: Montserrat;
+    font-weight: 500;
+    min-height: 100%;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.card {
+    width: 90%;
+    min-width: min-content;
+}
+
+.parfum-header {
+    letter-spacing: .2em;
+}
+
+.parfum-title {
+    color: hsl(212, 21%, 14%);
+}
+
+.parfum-price {
+    color: hsl(158, 36%, 37%);
+}
+
+.parfum-title,
+.parfum-price {
+    font-family: Fraunces;
+    font-size: 2em;
+}
+
+
+.parfum-header,
+.parfum-descr,
+.parfum-full-price {
+    color: hsl(228, 12%, 48%);
+}
+
+.parfum-img {
+    height: 100%;
+}
+
+.btn {
+    background-color: hsl(158, 36%, 37%);
+}
+
+.btn:hover {
+    background-color: hsl(158, 36%, 27%);
+}
+
+.btn:active:focus {
+    color: black;
+    background-color: hsl(158, 36%, 22%);
+}
+
+.btn-text {
+    font-weight: 700;
+}
+
+@media (min-width: 576px) {
+    .card {
+        width: 576px;
+    }
+
+    .parent {
+        height: 441.8px;
+        overflow: hidden;
+    }    
+}
